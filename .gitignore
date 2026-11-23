@@ -1,0 +1,36 @@
+# Python: локальное окружение и кэши
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Сборка
+build/
+dist/
+*.egg-info/
+
+# Локальные настройки и секреты
+.idea/
+.vscode/
+.env
+.env.*
+!.env.example
+
+# Временные файлы и резервные копии
+*.log
+*.tmp
+*.bak
+*.swp
+*~
+~$*
+
+# Служебные файлы ОС
+.DS_Store
+Thumbs.db
+Desktop.ini
